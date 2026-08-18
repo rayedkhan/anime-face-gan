@@ -1,0 +1,20 @@
+# dataset and training artifacts
+animefacedataset/
+generated/
+*.pth
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# jupyter
+.ipynb_checkpoints/
+
+# os / editor
+.DS_Store
+.vscode/
+.idea/
