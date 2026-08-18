@@ -2,7 +2,7 @@
 
 A DCGAN trained from scratch on a little over 63,000 anime faces. I built it to watch adversarial training up close: how fast a generator finds structure, how much later it finds variety, and whether the loss curves tell you anything about the pictures actually coming out.
 
-Everything lives in one notebook, `animeFaceGAN.ipynb`, with all 25 epochs of output saved.
+Everything lives in one notebook, `animeFaceGAN.ipynb`, with its outputs saved.
 
 | Epoch 1 | Epoch 5 | Epoch 25 |
 | --- | --- | --- |
@@ -18,7 +18,7 @@ No gradient penalty, no label smoothing, no learning-rate schedule. The point wa
 
 ## What it showed
 
-Structure comes almost immediately and variety comes late. After one epoch the generator already knows the template, eyes and hair and a face-shaped blob, but nearly every sample in the grid is the same face. By epoch 5 the faces are distinct from one another and the remaining twenty epochs are mostly spent cleaning up texture.
+Structure arrives almost immediately, variety a few epochs behind it. After one epoch the generator already knows the template, eyes and hair and a face-shaped blob, but nearly every sample in the grid is the same face. By epoch 5 the faces are distinct from one another and the remaining twenty epochs are mostly spent cleaning up texture.
 
 ![](assets/losses.png)
 
